@@ -1,5 +1,7 @@
 package KotlinBásico
 
+import java.util.*
+
 fun main() {
     // ARRAY - armazena número fixo de valores
 
@@ -38,6 +40,22 @@ fun main() {
 
     // FUNÇÕES
 
+    olaMundo()
+    println(queHorasSao())
 
+    var total = soma(10, 12)
+    println("Total: $total")
 
+}
+
+fun olaMundo(){
+    println("Ola mundo!")
+}
+
+fun queHorasSao(): Date{
+    return Date()
+}
+
+fun soma(a: Int, b: Int): Int{
+    return a + b
 }
