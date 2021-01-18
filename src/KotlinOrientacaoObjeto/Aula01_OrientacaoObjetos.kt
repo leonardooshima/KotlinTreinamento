@@ -6,14 +6,14 @@ comportamento de objetos no mundo real, a partir de uma classe criamos vários o
 // Ex: Classe - carro . Objetos: carro vermelho, carro amarelo, carro rapido, carro da policia
 // PROPRIEDADES - características da modelagem de Orientação a Objetos
 
-class Carro{
+class Car{
     var cor: String = "Amarelo"
     var ano: Int = 2017
     var modelo: String = "Fox"
 }
 
 fun main() {
-    val uno = Carro()
+    val uno = Car()
     uno.ano = 2018
     uno.modelo = "Uno"
 
@@ -22,7 +22,7 @@ fun main() {
     println(uno.cor)
     println(uno.modelo)
 
-    val mercedes = Carro()
+    val mercedes = Car()
     mercedes.cor = "Preta"
     mercedes.ano = 2010
     mercedes.modelo = "C13"
